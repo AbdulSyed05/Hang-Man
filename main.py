@@ -55,3 +55,4 @@ while not end_of_game:
     from hangman_art import stages
     print(stages[lives])
 
+
