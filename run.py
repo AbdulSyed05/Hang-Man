@@ -6,7 +6,6 @@ from hangman_words import word_list
 from hangman_art import stages
 from hangman_art import logo
 
-
 def clear():
     """
     This clears the terminal to prevent clutter on it.
