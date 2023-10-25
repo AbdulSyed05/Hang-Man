@@ -110,3 +110,4 @@ def display_stage(lives, guesses, message):
         # display_stage(lives, display, '')
 
 main()
+
