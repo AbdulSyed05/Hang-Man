@@ -109,5 +109,5 @@ def display_stage(lives, guesses, message):
         # print(stages[lives])
         # display_stage(lives, display, '')
 
-main()
+    main()
 
