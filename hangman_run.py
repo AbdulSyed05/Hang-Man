@@ -6,6 +6,22 @@ from hangman_words import word_list
 from hangman_art import stages
 from hangman_art import logo
 
+def main_menu():
+    print("Welcome to Hangman Game!")
+    while True:
+        print("\nMain Menu:")
+        print("1. Start a New Game")
+        print("2. Game Description")
+        print("3. Exit")
+
+        choice = input("Enter your choice (1/2/3): ")
+
+def game_description():
+    print("\nHangman is a word-guessing game where you have to guess a hidden word letter by letter.")
+    print("You can make a limited number of incorrect guesses before the hangman is complete.")
+    print("Your goal is to guess the word before the hangman is fully drawn.")
+    print("Good luck!")
+
 def clear():
     """
     This clears the terminal to prevent clutter on it.
@@ -103,7 +119,7 @@ def display_stage(lives, guesses, message):
         elif play_again == 'y':
             main()
         else:
-            print("Thanks for playing! Bye!")
+            print("Thank you for playing Hangman. Goodbye!")
             break
 
         # print(stages[lives])
