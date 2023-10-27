@@ -46,25 +46,25 @@ def display_stage(lives, guesses, message):
             return guess
 
 chosen_word = random.choice(word_list)
-    word_length = len(chosen_word)
+word_length = len(chosen_word)
 
-    end_of_game = False
-    lives = 6
+end_of_game = False
+lives = 6
 
-    print(logo)
+print(logo)
 
     #Testing code
     # print(f'Pssst, the solution is {chosen_word}.')
 
     #Create blanks
-    display = []
-    for _ in range(word_length):
+display = []
+for _ in range(word_length):
         display += "_"
         
-    current_guesses = []
-    current_message = ''
+current_guesses = []
+current_message = ''
     
-    while not end_of_game:
+while not end_of_game:
         # display_stage(lives, display, '')
         # guess = input("Guess a letter: ").lower()
         guess = display_stage(lives, display, current_message)
@@ -109,7 +109,7 @@ chosen_word = random.choice(word_list)
             print("You win.")
 
 
-    while True:
+while True:
         play_again = input("Do you want to play again? Y or N: ").lower()
         if play_again not in ["y", "n"]:
             print("Invalid input!")
@@ -122,5 +122,5 @@ chosen_word = random.choice(word_list)
         # print(stages[lives])
         # display_stage(lives, display, '')
 
-    main()
+main()
 
