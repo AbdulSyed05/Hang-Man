@@ -4,6 +4,11 @@ Portfolio Project 3
 
 Hangman is a classic word-guessing game that challenges your word knowledge and puzzle-solving skills. In this timeless pastime, you'll need to decipher a hidden word one letter at a time before the hangman is completely drawn.
 
+
+#### View my live project here.
+
+![https://hang-man01-c67c03b9b487.herokuapp.com/])
+
 ## How to Play:
 
 Start a New Game: Begin a new game and prepare to uncover the mystery word.
@@ -83,13 +88,6 @@ Expect a seamless, stable, and bug-free gaming experience, allowing me to fully 
 3 Challenge Myself:
 
 Have the option to increase the game's difficulty to continually challenge and improve my word-guessing skills.
-
-
-
-View my live project here.
-![https://hang-man01-c67c03b9b487.herokuapp.com/])
-
-
 
 ## Reminders
 
