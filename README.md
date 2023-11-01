@@ -86,8 +86,8 @@ Have the option to increase the game's difficulty to continually challenge and i
 
 
 
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+View my live project here.
+![https://hang-man01-c67c03b9b487.herokuapp.com/])
 
 
 
