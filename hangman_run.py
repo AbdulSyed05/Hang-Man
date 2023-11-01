@@ -115,7 +115,7 @@ while True:
         if play_again not in ["y", "n"]:
             print("Invalid input!")
         elif play_again == 'y':
-            main()
+            main_menu()
         else:
             print("Thank you for playing Hangman. Goodbye!")
             break
@@ -123,5 +123,5 @@ while True:
         # print(stages[lives])
         # display_stage(lives, display, '')
 
-main()
+main_menu()
 
