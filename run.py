@@ -4,10 +4,9 @@ import random
 from hangman_words import word_list
 from hangman_art import stages, logo
 
-
 def main_menu():
     """
-    Displays main menu and returns user's choice.
+    Displays the main menu and returns the user's choice.
     """
     clear()
     print(logo)
@@ -28,8 +27,10 @@ def main_menu():
             continue
         return choice
 
-
 def game_description():
+    """
+    Displays the game description.
+    """
     clear()
     print(logo)
     print("\nHangman is a word-guessing game where you have"
@@ -40,15 +41,17 @@ def game_description():
     print("Good luck!\n")
     input("Press ENTER to continue")
 
-
 def clear():
     """
-    This clears the terminal to prevent clutter on it.
+    Clears the terminal to prevent clutter.
     """
     os.system('cls' if os.name == 'nt' else 'clear')
 
-
 def display_stage(lives, guesses, message):
+    """
+    Displays the current stage of the hangman game, the guessed letters, and a message.
+    Asks the user to input a guess.
+    """
     clear()
     print(stages[lives])
     print(f"{' '.join(guesses)}")
@@ -63,7 +66,6 @@ def display_stage(lives, guesses, message):
             print("Guess should be a letter")
         else:
             return guess
-
 
 def main():
     chosen_word = random.choice(word_list)
@@ -81,59 +83,32 @@ def main():
         game_description()
         main()
     else:
-
-        # Testing code
-        # print(f'Pssst, the solution is {chosen_word}.')
-
-        # Create blanks
-        display = []
-        for _ in range(word_length):
-            display += "_"
-
+        display = ["_" for _ in range(word_length)]
         current_guesses = []
         current_message = ''
-        # Starting a main game loop
+        
         while not end_of_game:
-            # display_stage(lives, display, '')
-            # guess = input("Guess a letter: ").lower()
             guess = display_stage(lives, display, current_message)
 
             if guess in current_guesses:
-                # display_stage(lives, display, f"You've already guessed {guess}")
                 current_message = f"You've already guessed {guess}"
             elif guess not in chosen_word:
-                # print(f"You guessed {guess}, that's not in the word. You lose a life.")
-
                 lives -= 1
-                # display_stage(lives, display, f"You guessed {guess}, that's not in the word. You lose a life.")
                 current_message = f"You guessed {guess}, that's not in the word. You lose a life."
                 if lives == 0:
                     end_of_game = True
-                    # display_stage(lives, display, "You lose.")
-                    # current_message = "You lose!"
                     clear()
                     print(stages[lives])
                     print("You are out of lives!")
                     print(f"The word was: {chosen_word}.")
                     print("You lose. Good luck next time!")
             else:
-
-                # Check guessed letter
                 for position in range(word_length):
                     letter = chosen_word[position]
-                    # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
                     if letter == guess:
-                        # print("GUESS CORRECT!")
                         current_message = "Correct guess!"
                         display[position] = letter
-
             current_guesses.append(guess)
-            # Check if user is wrong.
-
-            # Join all the elements in the list and turn it into a String.
-            # print(f"{' '.join(display)}")
-
-            # Check if user has got all letters.
             if "_" not in display:
                 end_of_game = True
                 clear()
@@ -151,9 +126,5 @@ def main():
             else:
                 print("Thank you for playing Hangman. Goodbye!")
                 return
-
-            # print(stages[lives])
-            # display_stage(lives, display, '')
-
 
 main()
