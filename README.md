@@ -9,6 +9,8 @@ Hangman is a classic word-guessing game that challenges your word knowledge and 
 
 ![https://hang-man01-c67c03b9b487.herokuapp.com/])
 
+![Responsive Image](documentation/responsive-image.png)
+
 ## How to Play:
 
 Start a New Game: Begin a new game and prepare to uncover the mystery word.
