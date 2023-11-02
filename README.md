@@ -89,6 +89,10 @@ Expect a seamless, stable, and bug-free gaming experience, allowing me to fully 
 
 Have the option to increase the game's difficulty to continually challenge and improve my word-guessing skills.
 
+
+### Wireframes
+
+![Wireframe Python Terminal game](documentation/Wireframe.png)
 ## Reminders
 
 - Your code must be placed in the `run.py` file
