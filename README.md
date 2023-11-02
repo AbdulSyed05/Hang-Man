@@ -101,6 +101,12 @@ Have the option to increase the game's difficulty to continually challenge and i
 ### Languages used
 
 * Python 
+
+### Bugs
+I ran the check throughout project code, but i was getting few errors. Most of them were space, tabs, and line too long and trailing whitespace. I was able to fix these erorrs. 
+
+![Errors Image](documentation/bugs.png)
+
 ### Validation 
 
 ![Python Linter Validation Image](documentation/lintervalidation-image.png)
