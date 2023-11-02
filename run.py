@@ -4,6 +4,7 @@ import random
 from hangman_words import word_list
 from hangman_art import stages, logo
 
+
 def main_menu():
     """
     Displays the main menu and returns the user's choice.
@@ -27,6 +28,7 @@ def main_menu():
             continue
         return choice
 
+
 def game_description():
     """
     Displays the game description.
@@ -41,16 +43,17 @@ def game_description():
     print("Good luck!\n")
     input("Press ENTER to continue")
 
+
 def clear():
     """
     Clears the terminal to prevent clutter.
     """
     os.system('cls' if os.name == 'nt' else 'clear')
 
+
 def display_stage(lives, guesses, message):
     """
-    Displays the current stage of the hangman game, the guessed letters, and a message.
-    Asks the user to input a guess.
+    Displays the current stage of the hangman game.
     """
     clear()
     print(stages[lives])
@@ -66,6 +69,7 @@ def display_stage(lives, guesses, message):
             print("Guess should be a letter")
         else:
             return guess
+
 
 def main():
     chosen_word = random.choice(word_list)
@@ -86,7 +90,6 @@ def main():
         display = ["_" for _ in range(word_length)]
         current_guesses = []
         current_message = ''
-        
         while not end_of_game:
             guess = display_stage(lives, display, current_message)
 
@@ -94,7 +97,8 @@ def main():
                 current_message = f"You've already guessed {guess}"
             elif guess not in chosen_word:
                 lives -= 1
-                current_message = f"You guessed {guess}, that's not in the word. You lose a life."
+                current_message = f"You guessed {guess}"
+                "that's not in the word.You lose a life."
                 if lives == 0:
                     end_of_game = True
                     clear()
@@ -126,5 +130,6 @@ def main():
             else:
                 print("Thank you for playing Hangman. Goodbye!")
                 return
+
 
 main()
