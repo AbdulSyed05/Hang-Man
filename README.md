@@ -96,6 +96,16 @@ Have the option to increase the game's difficulty to continually challenge and i
 
 ![Wireframe Python Terminal game](documentation/Wireframe.png)
 
+### Game Features
+
+![Game Starting Screen](documentation/game-starting%20screen.png)
+
+![Game Description Screen](documentation/game-description.png)
+
+![Game Playing Screen](documentation/playing-game.png)
+
+![Game Over Screen](documentation/gamover-screen.png)
+
 ### Flowchart 
 
 ![Flowchart for Python Terminal game](documentation/flowchart.png)
