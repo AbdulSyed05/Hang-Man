@@ -81,7 +81,7 @@ def main():
     menu_choice = main_menu()
     if menu_choice == 3:
         end_of_game = True
-        print("Bye bye!")
+        print("Goodbye!")
         return
     elif menu_choice == 2:
         game_description()
