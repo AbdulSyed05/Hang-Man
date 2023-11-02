@@ -93,6 +93,17 @@ Have the option to increase the game's difficulty to continually challenge and i
 ### Wireframes
 
 ![Wireframe Python Terminal game](documentation/Wireframe.png)
+
+### Flowchart 
+
+![Flowchart for Python Terminal game](documentation/flowchart.png)
+
+### Languages used
+
+* Python 
+### Validation 
+
+
 ## Reminders
 
 - Your code must be placed in the `run.py` file
