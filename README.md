@@ -103,6 +103,8 @@ Have the option to increase the game's difficulty to continually challenge and i
 * Python 
 ### Validation 
 
+![Python Linter Validation Image](documentation/lintervalidation-image.png)
+
 
 ## Reminders
 
