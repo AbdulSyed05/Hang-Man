@@ -127,11 +127,11 @@ I ran the check throughout project code, but i was getting few errors. Most of t
 
 ### Deployment 
 
-This website was constructed in VS Code and deployed on 1[Link for heroku](https://id.heroku.com/login)
+This website was constructed in VS Code and deployed on(https://id.heroku. com/login)
 
 ### Activating your Heroku Student pack
 
-* ![Navigate to](https://www.heroku.com/github-students)
+* (https://www.heroku.com/github-students)
 * Click “Get the student offer”
 * Login with Heroku if necessary
 * Click “Verify with GitHub”
