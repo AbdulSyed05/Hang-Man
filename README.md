@@ -123,6 +123,8 @@ I ran the check throughout project code, but i was getting few errors. Most of t
 
 ![Python Linter Validation Image](documentation/lintervalidation-image.png)
 
+![No error image](documentation/all%20clear%20.png)
+
 
 ## Reminders
 
