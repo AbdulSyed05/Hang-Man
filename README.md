@@ -153,6 +153,14 @@ This website was constructed in VS Code and deployed on [Heroku](https://id.hero
 * Add an Application name
 ![App name](documentation/heroku_two.png)
 
+* On a new page, Select github as your deployment method and select connect to GitHub
+![](documentation/heroku_three.png)
+
+* Select the Repository, you would like to host on Heroku
+![](documentation/heroku_four.png)
+
+* Once the Repository is connected, you either choose Automatic deploy or manually deploy branch.
+![](documentation/heroku_five.png)
 
 
 ## Reminders
