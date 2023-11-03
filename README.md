@@ -125,6 +125,25 @@ I ran the check throughout project code, but i was getting few errors. Most of t
 
 ![No error image](documentation/all%20clear%20.png)
 
+### Deployment 
+
+This website was constructed in VS Code and deployed on 1[Link for heroku](https://id.heroku.com/login)
+
+### Activating your Heroku Student pack
+
+* ![Navigate to](https://www.heroku.com/github-students)
+* Click “Get the student offer”
+* Login with Heroku if necessary
+* Click “Verify with GitHub”
+* Click “Authorize heroku”
+* In order to receive the Heroku credits, payment details are required.
+* In the new tab, click “Add credit card”.
+* Enter your payment details as requested and then head back to the Heroku sign up process
+* Enter your details, ensuring to put “Code Institute” as your School name, heed the warning and then click “Send”
+* Read Heroku’s terms and click “Agree” to continue
+* A thank you message will be shown, indicating that it can take up to 24 hours for the request to be processed
+
+
 
 ## Reminders
 
