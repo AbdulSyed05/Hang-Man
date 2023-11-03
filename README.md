@@ -162,30 +162,40 @@ This website was constructed in VS Code and deployed on [Heroku](https://id.hero
 * Once the Repository is connected, you either choose Automatic deploy or manually deploy branch.
 ![](documentation/heroku_five.png)
 
+### How to run this project locally
 
-## Reminders
+To clone this project from GitHub
 
-- Your code must be placed in the `run.py` file
-- Your dependencies must be placed in the `requirements.txt` file
-- Do not edit any of the other files or your code may not deploy properly
+1. Follow this link to the [Project GitHub repository](https://hang-man01-c67c03b9b487.herokuapp.com/)
+2. Under the repository name, click "Clone or download".
+3. In the Clone with HTTPS section, copy the clone URL for the repository.
+4. In your local IDE open Git Bash.
+5. Change the current working directory to the location you want the cloned directory to be made.
+6. Type ` git clone ` and then press the URL you copied in Step 3
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+7. Press Enter. Your local clone will be created.
 
-## Creating the Heroku app
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+### Credits & Acknowledgements
 
-1. `heroku/python`
-2. `heroku/nodejs`
+![Hangman game idea](https://www.youtube.com/watch?v=pFvSb7cb_Us)
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+![Terminal Game project external links for more ideas](https://pypi.org/project/blessed/)
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
+* I owe my mentor Aleksei Konovalov a lot of credit for great mentoring and support. Your dedication to my development, patience in answering my questions, and willingness to invest your time and energy in my success have not gone unnoticed. I can genuinely say that I am a better [student/employee/mentee] because of your mentorship. And I wish you the best in your new career.
 
-Connect your GitHub repository and deploy as normal.
+* I owe the Slack community a great deal of credit also for their responsiveness and willingness to always help with small problems!
 
-## Constraints
 
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
 
----
 
-Happy coding!
+
