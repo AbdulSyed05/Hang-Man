@@ -185,7 +185,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 
-####  Credits & Acknowledgements
+### Credits & Acknowledgements
 
 * ![Hangman game idea in 16 minutes](https://www.youtube.com/watch?v=pFvSb7cb_Us) : I followed this tutorial to get ideas on how to create python game. 
 
