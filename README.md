@@ -187,9 +187,9 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ### Credits & Acknowledgements
 
-![Hangman game idea](https://www.youtube.com/watch?v=pFvSb7cb_Us)
+![Hangman game idea in 16 minutes](https://www.youtube.com/watch?v=pFvSb7cb_Us) : I followed this tutorial to get ideas on how to create python game. 
 
-![Terminal Game project external links for more ideas](https://pypi.org/project/blessed/)
+![Terminal Game project external links for more ideas](https://pypi.org/project/blessed/) : This external link was also used to get ideas on how to create a terminal app. 
 
 * I owe my mentor Aleksei Konovalov a lot of credit for great mentoring and support. Your dedication to my development, patience in answering my questions, and willingness to invest your time and energy in my success have not gone unnoticed. I can genuinely say that I am a better [student/employee/mentee] because of your mentorship. And I wish you the best in your new career.
 
