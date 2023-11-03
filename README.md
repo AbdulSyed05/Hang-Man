@@ -127,7 +127,7 @@ I ran the check throughout project code, but i was getting few errors. Most of t
 
 ### Deployment 
 
-This website was constructed in VS Code and deployed on [Heroku](https://id.heroku. com/login)
+This website was constructed in VS Code and deployed on [Heroku](https://id.heroku.com/login)
 
 ### Activating your Heroku Student pack
 
