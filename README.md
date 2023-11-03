@@ -143,6 +143,16 @@ This website was constructed in VS Code and deployed on [Heroku](https://id.hero
 * Read Heroku’s terms and click “Agree” to continue
 * A thank you message will be shown, indicating that it can take up to 24 hours for the request to be processed
 
+### Adding an App to Heroku
+
+* On the main page of your heroku account, select the NEW tab
+* Then select Create New app
+
+![Create new app](documentation/heroku_one.png)
+
+* Add an Application name
+![App name](documentation/heroku_two.png)
+
 
 
 ## Reminders
