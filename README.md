@@ -1,6 +1,6 @@
 # Portfolio Project 3
 
-# == h1
+
 
 ## Hangman - The Classic Word-Guessing Game
 
