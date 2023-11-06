@@ -9,7 +9,7 @@ Hangman is a classic word-guessing game that challenges your word knowledge and 
 
 ### View my live project here.
 
-[https://hang-man01-c67c03b9b487.herokuapp.com/](https://hang-man01-c67c03b9b487.herokuapp.com/)
+[Live Link](https://hang-man01-c67c03b9b487.herokuapp.com/)
 
 ![Responsive Image](documentation/responsive-image.png)
 
