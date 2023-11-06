@@ -99,12 +99,18 @@ Hangman is a game that tests your vocabulary and word recognition skills while p
 ![Wireframe Python Terminal game](documentation/Wireframe.png)
 
 ## Game Features
+1. Game Starting Screen
 
 ![Game Starting Screen](documentation/game-starting%20screen.png)
 
+2. Game Description
+
 ![Game Description Screen](documentation/game-description.png)
 
+3. Main playing game screen
 ![Game Playing Screen](documentation/playing-game.png)
+
+4. When the game is over
 
 ![Game Over Screen](documentation/gamover-screen.png)
 
