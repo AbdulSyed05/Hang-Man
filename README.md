@@ -115,6 +115,18 @@ Hangman is a game that tests your vocabulary and word recognition skills while p
 
 ![Game Over Screen](documentation/gamover-screen.png)
 
+5. Winning Screen
+
+![Winning screen](documentation/winning.png)
+
+6. Special character
+
+![Accept only 1 alphabet at a time](documentation/special%20character.png)
+
+7. Numbers
+
+![Does not accept number](documentation/numbers%20.png)
+
 ## Flowchart 
 
 ![Flowchart for Python Terminal game](documentation/flowchart.png)
