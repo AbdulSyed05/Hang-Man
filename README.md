@@ -136,7 +136,7 @@ I ran the check throughout project code, but i was getting few errors. Most of t
 
 1. Python Run.py report
 
-(documentation/lintervalidation-image.png)
+![Run](documentation/lintervalidation-image.png)
 
 2. Python Words.py report
 
