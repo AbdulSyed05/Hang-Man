@@ -131,6 +131,10 @@ I ran the check throughout project code, but i was getting few errors. Most of t
 
 ![No error image](documentation/all%20clear%20.png)
 
+![Words](documentation/words.png)
+
+![art](documentation/art.png)
+
 ## Deployment 
 
 This website was constructed in VS Code and deployed on [Heroku](https://id.heroku.com/login)
