@@ -134,11 +134,19 @@ I ran the check throughout project code, but i was getting few errors. Most of t
 
 ## Validation
 
-![Python Linter Validation Image](documentation/lintervalidation-image.png)
+1. Python Run.py report
+
+documentation/lintervalidation-image.png)
+
+2. Python Words.py report
 
 ![Words](documentation/words.png)
 
+3. Python Art.py report
+
 ![art](documentation/art.png)
+
+4. No Error report
 
 ![No error image](documentation/all%20clear%20.png)
 
