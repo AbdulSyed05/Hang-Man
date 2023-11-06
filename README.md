@@ -1,13 +1,15 @@
-Portfolio Project 3
+# Portfolio Project 3
+
+# == h1
 
 ## Hangman - The Classic Word-Guessing Game
 
 Hangman is a classic word-guessing game that challenges your word knowledge and puzzle-solving skills. In this timeless pastime, you'll need to decipher a hidden word one letter at a time before the hangman is completely drawn.
 
 
-#### View my live project here.
+### View my live project here.
 
-![https://hang-man01-c67c03b9b487.herokuapp.com/])
+[https://hang-man01-c67c03b9b487.herokuapp.com/](https://hang-man01-c67c03b9b487.herokuapp.com/)
 
 ![Responsive Image](documentation/responsive-image.png)
 
@@ -21,82 +23,82 @@ Word Completion: Your goal is to reveal the entire word before the hangman figur
 
 Strategy and Skill: Use your knowledge of words, common letters, and the context of the game to make educated guesses. Every incorrect guess brings you closer to the hangman's completion!
 
-#### Hangman Rules:
+### Hangman Rules:
 
 You have a set number of attempts to guess the word correctly.
 For each incorrect letter guess, a part of the hangman (a stick figure) is drawn.
 The game is over if the hangman figure is fully drawn before you guess the word.
 You win the game if you guess the word before the hangman is complete.
 
-#### Are You Up for the Challenge?
+### Are You Up for the Challenge?
 
 Hangman is a game that tests your vocabulary and word recognition skills while providing hours of fun and entertainment. Whether you're a word wizard or just looking for a fun way to pass the time, Hangman is the perfect choice. So, what are you waiting for? Start a new game and see if you can outsmart the hangman! Good luck!
 
-#### As a first-time visitor to the Hangman game, I want to:
+### As a first-time visitor to the Hangman game, I want to:
 
-1 Learn About the Game:
+1. Learn About the Game:
 
-Quickly understand the concept and rules of the game, even if I've never played Hangman before.
+    Quickly understand the concept and rules of the game, even if I've never played Hangman before.
 
-2 Access a Game Description:
+2. Access a Game Description:
 
-Find a clear and concise description of the Hangman game, including how it's played and the objective.
+    Find a clear and concise description of the Hangman game, including how it's played and the objective.
 
-3 Understand the User Interface:
+3. Understand the User Interface:
 
-Easily navigate the game's main menu and options.
-Know how to start a new game or access any additional features.
+    Easily navigate the game's main menu and options.
+    Know how to start a new game or access any additional features.
 
-4 Receive Clear Instructions:
+4. Receive Clear Instructions:
 
-Access instructions or a tutorial on how to make letter guesses, what happens when I guess correctly or incorrectly, and how to win or lose the game.
+    Access instructions or a tutorial on how to make letter guesses, what happens when I guess correctly or incorrectly, and how to win or lose the game.
 
-5 Feel Welcomed and Encouraged:
+5. Feel Welcomed and Encouraged:
 
-Experience a welcoming and friendly atmosphere that encourages me to start a new game and have fun.
+    Experience a welcoming and friendly atmosphere that encourages me to start a new game and have fun.
 
-#### As a returning visitor to the Hangman game, I want to:
+### As a returning visitor to the Hangman game, I want to:
 
-1 Quickly Resume a Game:
+1. Quickly Resume a Game:
 
-Easily pick up where I left off in any ongoing games from my previous visit.
+    Easily pick up where I left off in any ongoing games from my previous visit.
 
-2 Start a New Game Effortlessly:
+2. Start a New Game Effortlessly:
 
-Have a straightforward option to start a new Hangman game if I wish to begin a fresh round.
+    Have a straightforward option to start a new Hangman game if I wish to begin a fresh round.
 
-3 Enjoy a Seamless Experience:
+3. Enjoy a Seamless Experience:
 
-Enjoy a seamless and consistent gaming experience that I've come to appreciate.
+    Enjoy a seamless and consistent gaming experience that I've come to appreciate.
 
-4 Feel a Sense of Progress:
+4. Feel a Sense of Progress:
 
-Continue improving my word-guessing skills and enjoy the sense of progress and accomplishment.
+    Continue improving my word-guessing skills and enjoy the sense of progress and accomplishment.
 
-5 Feel Engaged and Motivated:
+5. Feel Engaged and Motivated:
 
-Be motivated to return to the game and continue my Hangman adventure.
+    Be motivated to return to the game and continue my Hangman adventure.
 
-#### As a frequent visitor to the Hangman game, I want to:
+### As a frequent visitor to the Hangman game, I want to:
 
-1 Effortlessly Navigate the Game:
+1. Effortlessly Navigate the Game:
 
-Quickly and easily navigate through the game menu and features.
+    Quickly and easily navigate through the game menu and features.
 
-2 Enjoy a Smooth and Bug-Free Experience:
+2. Enjoy a Smooth and Bug-Free Experience:
 
-Expect a seamless, stable, and bug-free gaming experience, allowing me to fully immerse myself in the game.
+    Expect a seamless, stable, and bug-free gaming experience, allowing me to fully immerse myself in the game.
 
-3 Challenge Myself:
+3. Challenge Myself:
 
-Have the option to increase the game's difficulty to continually challenge and improve my word-guessing skills.
+    Have the option to increase the game's difficulty to continually challenge and improve my word-guessing skills.
 
 
-### Wireframes
+## Wireframes
 
 ![Wireframe Python Terminal game](documentation/Wireframe.png)
 
-### Game Features
+## Game Features
 
 ![Game Starting Screen](documentation/game-starting%20screen.png)
 
@@ -106,41 +108,45 @@ Have the option to increase the game's difficulty to continually challenge and i
 
 ![Game Over Screen](documentation/gamover-screen.png)
 
-### Flowchart 
+## Flowchart 
 
 ![Flowchart for Python Terminal game](documentation/flowchart.png)
 
-### Languages used
+## Languages used
 
-* Python 
+* [Python](https://www.python.org/): the main language used to create the game.
 
-### Bugs
+## TESTING
+
+TODO: Add testing information here
+
+## Bugs
 I ran the check throughout project code, but i was getting few errors. Most of them were space, tabs, and line too long and trailing whitespace. I was able to fix these erorrs. 
 
 ![Errors Image](documentation/bugs.png)
 
-### Validation 
+## Validation
 
 ![Python Linter Validation Image](documentation/lintervalidation-image.png)
 
 ![No error image](documentation/all%20clear%20.png)
 
-### Deployment 
+## Deployment 
 
 This website was constructed in VS Code and deployed on [Heroku](https://id.heroku.com/login)
 
 ### Activating your Heroku Student pack
 
 * [Heroku-Github Student Pack](https://www.heroku.com/github-students)
-* Click “Get the student offer”
+* Click "Get the student offer"
 * Login with Heroku if necessary
-* Click “Verify with GitHub”
-* Click “Authorize heroku”
+* Click "Verify with GitHub"
+* Click "Authorize heroku"
 * In order to receive the Heroku credits, payment details are required.
-* In the new tab, click “Add credit card”.
+* In the new tab, click "Add credit card".
 * Enter your payment details as requested and then head back to the Heroku sign up process
-* Enter your details, ensuring to put “Code Institute” as your School name, heed the warning and then click “Send”
-* Read Heroku’s terms and click “Agree” to continue
+* Enter your details, ensuring to put "Code Institute" as your School name, heed the warning and then click "Send"
+* Read Heroku's terms and click "Agree" to continue
 * A thank you message will be shown, indicating that it can take up to 24 hours for the request to be processed
 
 ### Adding an App to Heroku
@@ -184,18 +190,14 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
+```
 
-### Credits & Acknowledgements
+##  Credits & Acknowledgements
 
-* ![Hangman game idea in 16 minutes](https://www.youtube.com/watch?v=pFvSb7cb_Us) : I followed this tutorial to get ideas on how to create python game. 
+* [Hangman game idea in 16 minutes](https://www.youtube.com/watch?v=pFvSb7cb_Us) : I followed this tutorial to get ideas on how to create python game. 
 
-* ![Terminal Game project external links for more ideas](https://pypi.org/project/blessed/) : This external link was also used to get ideas on how to create a terminal app. 
+* [Blessed package](https://pypi.org/project/blessed/) : This external link was also used to get ideas on how to create a terminal app. 
 
 * I owe my mentor Aleksei Konovalov a lot of credit for great mentoring and support. Your dedication to my development, patience in answering my questions, and willingness to invest your time and energy in my success have not gone unnoticed. I can genuinely say that I am a better [student/employee/mentee] because of your mentorship. And I wish you the best in your new career.
 
 * I owe the Slack community a great deal of credit also for their responsiveness and willingness to always help with small problems!
-
-
-
-
-
