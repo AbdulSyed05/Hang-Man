@@ -228,7 +228,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 * [Hangman game idea in 16 minutes](https://www.youtube.com/watch?v=pFvSb7cb_Us) : I followed this tutorial to get ideas on how to create python game. 
 
-* [Blessed package](https://pypi.org/project/blessed/) : This external link was also used to get ideas on how to create a terminal app. 
+* [Blessed package](https://pypi.org/project/blessed/) : Although I didnt use any project from blessed packages, but i used for reference and ideas purpose only.
 
 * I owe my mentor Aleksei Konovalov a lot of credit for great mentoring and support. Your dedication to my development, patience in answering my questions, and willingness to invest your time and energy in my success have not gone unnoticed. I can genuinely say that I am a better [student/employee/mentee] because of your mentorship. And I wish you the best in your new career.
 
